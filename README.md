@@ -4,11 +4,11 @@
 
 ## Requirements
 
-The Library Management System offers a robust set of features to enhance user experience and library management:
+The Library Management System offers a robust set of features to enhance the user experience and library management:
 
-- **Basic Authentication**: Users have the ability to register for an account, and can log in and log out of the system.
+- **Basic Authentication**: Users have the ability to register for an account and can log in and log out of the system.
 - **Book Listing**: The application lists all books in the database, complete with images (if available), titles, and descriptions.
-- **Book Filtering**: Users can filter books by those available for borrowing, books due to be returned today, and books currently on loan. Loaned books include details of the expected return date and borrower's information (first name, last name, email address).
+- **Book Filtering**: Users can filter books by those available for borrowing, books due to be returned today, and books currently on loan. Loaned books include details of the expected return date and the borrower's information (first name, last name, email address).
 - **Borrowing Books**: Upon borrowing a book, users are shown the expected return date for the book.
 
 ## Tools Used
@@ -28,11 +28,11 @@ The Library Management System offers a robust set of features to enhance user ex
 
 ### Running the Backend
 
-1. In the project root folder, navigate to the `library-backend` folder using:
-   `>cd library-backend`
+1. In the project root folder, navigate to the `backend` folder using:
+   `>cd backend`
 2. Open a new terminal window and install all the backend dependencies:
     `>npm install`
-3. Before running the backend in development mode, create and configure a `.env` file in the `library-backend` root folder with the following contents:
+3. Before running the backend in development mode, create and configure a `.env` file in the `backend` root folder with the following contents:
 
     ```js
     PORT=5000 <!-- Replace with your preferred port -->
@@ -46,11 +46,11 @@ The Library Management System offers a robust set of features to enhance user ex
 
 ### Running the Frontend
 
-1. To set up the frontend, navigate to the `library-frontend` folder using:
-    `>cd library-frontend`
+1. To set up the frontend, navigate to the `frontend` folder using:
+    `>cd frontend`
 2. Open a new terminal window and install the frontend dependencies:
     `>npm install`
-3. Create a `.env` file in the `library-frontend` root folder and configure it as follows:
+3. Create a `.env` file in the `frontend` root folder and configure it as follows:
 
     ```js
     REACT_APP_API_URL=http://localhost:5000 <!-- Replace with your backend running port -->
