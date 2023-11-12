@@ -23,7 +23,7 @@ The Library Management System offers a robust set of features to enhance the use
 
 1. First, copy the project link from GitHub.
 2. Open a terminal on your local machine and clone the repository using:
-    `>git clone [github-repository-link]`
+    `>git clone https://github.com/ovidiuborze22/Library-Management-Application.git`
 3. Open the project folder.
 
 ### Running the Backend
