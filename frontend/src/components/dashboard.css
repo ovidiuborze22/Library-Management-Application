@@ -1,0 +1,20 @@
+/* dashboard.css */
+.dashboard-container {
+  padding-top: 60px;
+  display: flex;
+  min-height: calc(100vh - 60px);
+}
+
+.filter-sidebar {
+  flex: 0 0 200px;
+  padding: 1em;
+  border-right: 1px solid #ccc;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.book-content {
+  flex-grow: 1;
+  padding: 1em;
+  overflow-y: auto;
+}

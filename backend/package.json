@@ -1,5 +1,5 @@
 {
-  "name": "library-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Library Management App Backend",
   "main": "index.js",

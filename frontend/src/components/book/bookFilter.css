@@ -1,0 +1,35 @@
+/* bookFilter.css */
+.book-filter {
+  display: inline-block;
+  flex-direction: column;
+  background: #e9ecef;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.book-filter button {
+  padding: 0.5em;
+  margin-bottom: 0.3em;
+  margin-left: 20px;
+  background-color: #334e68;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-filter button:last-child {
+  margin-bottom: 0;
+}
+
+.book-filter button:hover {
+  background-color: #1d3557;
+}
+
+.book-filter button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(51, 78, 104, 0.5);
+}
